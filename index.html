@@ -1,0 +1,398 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freshvege - Organic Grocery Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <p>Free shipping on orders over $50</p>
+        <div>
+            <span>English ▼</span>
+            <span>USD ▼</span>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header">
+        <a href="#" class="logo">
+            <span class="logo-icon">❋</span> Freshvege
+        </a>
+
+        <form class="search-bar">
+            <input type="search" placeholder="Search for products...">
+            <select aria-label="Product category">
+                <option>All Categories</option>
+                <option>Vegetables</option>
+                <option>Fruits</option>
+                <option>Organic Food</option>
+            </select>
+            <button type="submit">Search</button>
+        </form>
+
+        <div class="header-icons">
+            <a href="#" aria-label="Account">♙</a>
+            <a href="#" aria-label="Wishlist">♡</a>
+            <a href="#" aria-label="Shopping cart">🛒 <span>0</span></a>
+        </div>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <button class="category-button">☰ All Categories</button>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#products">Shop</a>
+            <a href="#categories">Categories</a>
+            <a href="#about">About Us</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <p class="support">☎ 24/7 Support</p>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <main id="home">
+        <section class="hero">
+            <div class="hero-content">
+                <span class="eyebrow">100% ORGANIC FOOD</span>
+                <h1>Fresh & Healthy<br>Organic Vegetables</h1>
+                <p>
+                    Bring nature's goodness to your table.
+                    Shop fresh vegetables and organic products
+                    for a healthier lifestyle.
+                </p>
+                <a href="#products" class="btn">Shop Now →</a>
+            </div>
+            <div class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1000&q=85"
+                    alt="Fresh green vegetables in a bowl">
+            </div>
+            <div class="hero-label">
+                <strong>100%</strong>
+                <span>Fresh & Natural</span>
+            </div>
+        </section>
+
+        <!-- BENEFITS -->
+        <section class="benefits">
+            <div class="benefit">
+                <span class="benefit-icon">🚚</span>
+                <div>
+                    <h3>Free Shipping</h3>
+                    <p>On orders over $50</p>
+                </div>
+            </div>
+
+            <div class="benefit">
+                <span class="benefit-icon">🌿</span>
+                <div>
+                    <h3>100% Organic</h3>
+                    <p>Healthy natural products</p>
+                </div>
+            </div>
+
+            <div class="benefit">
+                <span class="benefit-icon">↻</span>
+                <div>
+                    <h3>Easy Returns</h3>
+                    <p>Simple return policy</p>
+                </div>
+            </div>
+
+            <div class="benefit">
+                <span class="benefit-icon">♧</span>
+                <div>
+                    <h3>Secure Payment</h3>
+                    <p>Safe checkout experience</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CATEGORIES -->
+        <section class="section" id="categories">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">SHOP BY CATEGORY</span>
+                    <h2>Explore Our Categories</h2>
+                </div>
+                <a href="#products" class="view-link">View All →</a>
+            </div>
+
+            <div class="category-grid">
+                <a href="#products" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=400&q=80" alt="Vegetables">
+                    <h3>Vegetables</h3>
+                    <p>Fresh from the farm</p>
+                </a>
+
+                <a href="#products" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=400&q=80" alt="Fresh fruits">
+                    <h3>Fresh Fruits</h3>
+                    <p>Nature's sweet treats</p>
+                </a>
+
+                <a href="#products" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=400&q=80" alt="Cooking oils">
+                    <h3>Organic Foods</h3>
+                    <p>Better everyday choices</p>
+                </a>
+
+                <a href="#products" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=400&q=80" alt="Healthy food">
+                    <h3>Healthy Foods</h3>
+                    <p>Goodness in every bite</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- PROMOTIONAL BANNERS -->
+        <section class="promo-grid">
+            <div class="promo promo-green">
+                <div>
+                    <span>FRESH EVERY DAY</span>
+                    <h2>Healthy Food<br>For Your Family</h2>
+                    <a href="#products">Shop Now →</a>
+                </div>
+                <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=400&q=80" alt="Fresh vegetables">
+            </div>
+
+            <div class="promo promo-orange">
+                <div>
+                    <span>SEASONAL SPECIAL</span>
+                    <h2>Nature's Best<br>Fresh Fruits</h2>
+                    <a href="#products">Discover More →</a>
+                </div>
+                <img src="https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=400&q=80" alt="Colorful fresh fruit">
+            </div>
+        </section>
+
+        <!-- PRODUCTS -->
+        <section class="section" id="products">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">OUR BEST PICKS</span>
+                    <h2>Popular Products</h2>
+                </div>
+                <a href="#products" class="view-link">View All →</a>
+            </div>
+
+            <div class="product-grid">
+                <div class="product-card">
+                    <span class="tag">New</span>
+                    <button class="wishlist" aria-label="Add to wishlist">♡</button>
+                    <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=500&q=80" alt="Fresh vegetable selection">
+                    <div class="product-info">
+                        <p class="product-category">Fresh Vegetables</p>
+                        <h3>Organic Vegetable Mix</h3>
+                        <p class="rating">★★★★★ <span>(12 reviews)</span></p>
+                        <div class="product-bottom">
+                            <strong>$12.00</strong>
+                            <button class="add-cart" type="button">+ Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <span class="tag">New</span>
+                    <button class="wishlist" aria-label="Add to wishlist">♡</button>
+                    <img src="https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=500&q=80" alt="Fresh fruit selection">
+                    <div class="product-info">
+                        <p class="product-category">Fresh Fruits</p>
+                        <h3>Fresh Seasonal Fruits</h3>
+                        <p class="rating">★★★★★ <span>(8 reviews)</span></p>
+                        <div class="product-bottom">
+                            <strong>$15.00</strong>
+                            <button class="add-cart" type="button">+ Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <span class="tag">Popular</span>
+                    <button class="wishlist" aria-label="Add to wishlist">♡</button>
+                    <img src="https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80" alt="Natural cooking oil">
+                    <div class="product-info">
+                        <p class="product-category">Organic Pantry</p>
+                        <h3>Natural Cooking Oil</h3>
+                        <p class="rating">★★★★★ <span>(15 reviews)</span></p>
+                        <div class="product-bottom">
+                            <strong>$18.00</strong>
+                            <button class="add-cart" type="button">+ Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <span class="tag">Sale</span>
+                    <button class="wishlist" aria-label="Add to wishlist">♡</button>
+                    <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=500&q=80" alt="Healthy prepared food">
+                    <div class="product-info">
+                        <p class="product-category">Healthy Foods</p>
+                        <h3>Healthy Food Selection</h3>
+                        <p class="rating">★★★★★ <span>(10 reviews)</span></p>
+                        <div class="product-bottom">
+                            <strong>$10.00</strong>
+                            <button class="add-cart" type="button">+ Add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT US -->
+        <section class="about-section" id="about">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=900&q=85" alt="Green farmland">
+                <div class="about-badge">
+                    <strong>100%</strong>
+                    <span>Natural Goodness</span>
+                </div>
+            </div>
+
+            <div class="about-content">
+                <span class="eyebrow">ABOUT OUR STORE</span>
+                <h2>We Believe in Working With Accredited Farmers</h2>
+                <p>
+                    We believe good food begins with good farming.
+                    Our store brings together fresh produce and
+                    everyday essentials for your home.
+                </p>
+                <p>
+                    Discover quality ingredients, carefully selected
+                    products and a convenient way to shop for the
+                    things you love.
+                </p>
+
+                <ul class="about-list">
+                    <li>✓ Carefully selected produce</li>
+                    <li>✓ Fresh and natural ingredients</li>
+                    <li>✓ Quality you can feel good about</li>
+                </ul>
+
+                <a href="#products" class="btn">Read More →</a>
+            </div>
+        </section>
+
+        <!-- BLOG -->
+        <section class="section" id="blog">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">OUR LATEST NEWS</span>
+                    <h2>From The Blog</h2>
+                </div>
+                <a href="#blog" class="view-link">View All →</a>
+            </div>
+
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=700&q=80" alt="Healthy meal">
+                    <div class="blog-info">
+                        <p class="blog-date">August 29, 2025 · Healthy Living</p>
+                        <h3>Simple Ways to Add More Fresh Foods to Your Diet</h3>
+                        <p>Discover easy ideas for bringing fresh ingredients into your everyday meals.</p>
+                        <a href="#blog">Read More →</a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=700&q=80" alt="Fresh healthy ingredients">
+                    <div class="blog-info">
+                        <p class="blog-date">August 29, 2025 · Nutrition</p>
+                        <h3>Why Fresh Ingredients Make a Difference</h3>
+                        <p>Learn how to make thoughtful choices when shopping for your kitchen.</p>
+                        <a href="#blog">Read More →</a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=700&q=80" alt="Fresh food ingredients">
+                    <div class="blog-info">
+                        <p class="blog-date">August 29, 2025 · Food Tips</p>
+                        <h3>Easy Tips for Storing Your Fresh Produce</h3>
+                        <p>Keep your kitchen organized and make the most of your grocery shopping.</p>
+                        <a href="#blog">Read More →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEWSLETTER -->
+        <section class="newsletter">
+            <div>
+                <span class="eyebrow">STAY IN THE LOOP</span>
+                <h2>Get Latest Updates & News</h2>
+                <p>Subscribe to receive news, new arrivals and special offers.</p>
+            </div>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">Subscribe →</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+        <div class="footer-grid">
+            <div class="footer-about">
+                <a href="#" class="logo">
+                    <span class="logo-icon">❋</span> Freshvege
+                </a>
+                <p>
+                    Your destination for fresh produce and
+                    everyday grocery essentials. Bringing
+                    freshness and goodness to your home.
+                </p>
+                <p>● Facebook &nbsp; ● Instagram &nbsp; ● Pinterest</p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#products">Our Products</a>
+                <a href="#blog">Latest News</a>
+            </div>
+
+            <div>
+                <h3>Customer Service</h3>
+                <a href="#contact">Contact Us</a>
+                <a href="#contact">Shipping Information</a>
+                <a href="#contact">Returns & Refunds</a>
+                <a href="#contact">Privacy Policy</a>
+            </div>
+
+            <div>
+                <h3>Store Information</h3>
+                <p>⌖ 1801 Zboncak Island Suite Street</p>
+                <p>✉ support@example.com</p>
+                <p>☎ (+01) 0123-456-789</p>
+                <p>Monday – Saturday</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Freshvege. All rights reserved.</p>
+            <p>Secure & Convenient Shopping</p>
+        </div>
+    </footer>
+
+    <script>
+        // Prevent the demonstration forms from reloading the page.
+        document.querySelectorAll("form").forEach(function(form) {
+            form.addEventListener("submit", function(event) {
+                event.preventDefault();
+            });
+        });
+    </script>
+
+</body>
+</html>
