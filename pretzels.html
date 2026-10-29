@@ -1,0 +1,445 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pretzels | Freshvege</title>
+    <link rel="stylesheet" href="pretzels.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- Top announcement bar -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <p>Free shipping on orders over $50</p>
+            <div>
+                <a href="#">Contact Us</a>
+                <span>|</span>
+                <a href="#">My Account</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container header-content">
+
+            <a href="#" class="logo">
+                <i class="fa-solid fa-leaf"></i>
+                <span>Fresh<span class="logo-green">vege</span></span>
+            </a>
+
+            <form class="search-box">
+                <input type="search" placeholder="Search our store..." aria-label="Search products">
+                <select aria-label="Search category">
+                    <option>All Categories</option>
+                    <option>Pretzels</option>
+                    <option>Vegetables</option>
+                    <option>Fruits</option>
+                    <option>Cookies</option>
+                </select>
+                <button type="submit" aria-label="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+
+            <div class="header-actions">
+                <a href="#" aria-label="Wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                    <span>Wishlist</span>
+                </a>
+                <a href="#" aria-label="Shopping cart">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span>My Cart</span>
+                    <b class="cart-count">0</b>
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="category-menu">
+                <i class="fa-solid fa-bars"></i>
+                Shop By Categories
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Vegetables</a>
+                <a href="#">Fruits</a>
+                <a href="#">Cookies</a>
+                <a href="#" class="active">Pretzels</a>
+                <a href="#">Nuts &amp; Seeds</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="nav-phone">
+                <i class="fa-solid fa-phone"></i>
+                <span>0123-456-789</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page banner -->
+    <section class="page-banner">
+        <div class="container banner-content">
+            <div>
+                <p class="banner-label">FRESH &amp; DELICIOUS</p>
+                <h1>Pretzels</h1>
+                <p>Discover delicious snacks for every occasion.</p>
+            </div>
+            <div class="banner-icon">
+                <i class="fa-solid fa-bread-slice"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Breadcrumb -->
+    <div class="container breadcrumb">
+        <a href="#">Home</a>
+        <i class="fa-solid fa-chevron-right"></i>
+        <span>Pretzels</span>
+    </div>
+
+    <!-- Main category content -->
+    <main class="container shop-layout">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <section class="sidebar-section">
+                <h3>Categories <i class="fa-solid fa-minus"></i></h3>
+                <ul class="category-list">
+                    <li><a href="#">Vegetables <span>(21)</span></a></li>
+                    <li><a href="#">Apple <span>(22)</span></a></li>
+                    <li><a href="#">Cookies <span>(22)</span></a></li>
+                    <li><a href="#" class="selected">Pretzels <span>(22)</span></a></li>
+                    <li><a href="#">Nuts &amp; Seeds <span>(22)</span></a></li>
+                    <li><a href="#">Cooking Spice <span>(22)</span></a></li>
+                    <li><a href="#">Cold Drinks <span>(22)</span></a></li>
+                    <li><a href="#">Orange <span>(22)</span></a></li>
+                    <li><a href="#">Juice <span>(5)</span></a></li>
+                </ul>
+            </section>
+
+            <section class="sidebar-section">
+                <h3>Filter By Price</h3>
+                <div class="price-track">
+                    <span></span>
+                </div>
+                <div class="price-values">
+                    <span>$10</span>
+                    <span>$100</span>
+                </div>
+                <button class="filter-button" type="button">Filter</button>
+            </section>
+
+            <section class="sidebar-section">
+                <h3>Availability</h3>
+                <label class="filter-option">
+                    <input type="checkbox">
+                    <span>In stock</span>
+                    <small>(18)</small>
+                </label>
+                <label class="filter-option">
+                    <input type="checkbox">
+                    <span>Out of stock</span>
+                    <small>(4)</small>
+                </label>
+            </section>
+
+            <section class="sidebar-section">
+                <h3>Product Tags</h3>
+                <div class="tag-list">
+                    <a href="#">Fresh</a>
+                    <a href="#">Organic</a>
+                    <a href="#">Snacks</a>
+                    <a href="#">Bakery</a>
+                    <a href="#">Healthy</a>
+                </div>
+            </section>
+
+            <div class="sidebar-promo">
+                <span>FRESH &amp; TASTY</span>
+                <h3>Good food, good mood!</h3>
+                <p>Discover something delicious today.</p>
+                <a href="#">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+        </aside>
+
+        <!-- Products area -->
+        <section class="products-area">
+
+            <div class="category-intro">
+                <h2>Pretzels</h2>
+                <p>
+                    Explore our selection of delicious pretzels and bakery snacks.
+                    Find your favourite treats for sharing, snacking and enjoying
+                    any time of the day.
+                </p>
+            </div>
+
+            <div class="shop-toolbar">
+                <p>Showing <strong>1–8</strong> of <strong>22</strong> items</p>
+
+                <div class="toolbar-controls">
+                    <label for="sort-products">Sort by:</label>
+                    <select id="sort-products">
+                        <option>Relevance</option>
+                        <option>Price: low to high</option>
+                        <option>Price: high to low</option>
+                        <option>Product name</option>
+                    </select>
+
+                    <button type="button" class="view-button active" aria-label="Grid view">
+                        <i class="fa-solid fa-grip"></i>
+                    </button>
+                    <button type="button" class="view-button" aria-label="List view">
+                        <i class="fa-solid fa-list"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="product-grid">
+
+                <!-- Product 1 -->
+                <article class="product-card">
+                    <span class="product-badge">New</span>
+                    <button class="wishlist-button" type="button" aria-label="Add pretzel to wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <a class="product-image" href="#">
+                        <img src="image/pepper2.jpg" alt="Freshly baked bakery bread" loading="lazy">
+                    </a>
+                    <div class="product-info">
+                        <p class="product-category">Foodland</p>
+                        <h3><a href="#">Kirat organic green capsicum seed</a></h3>
+                        <div class="rating">★★★★★ <span>(1 Review)</span></div>
+                        <p class="price">$18.00</p>
+                        <button class="add-cart" type="button">
+                            <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Product 2 -->
+                <article class="product-card">
+                    <span class="product-badge sale">-10%</span>
+                    <button class="wishlist-button" type="button" aria-label="Add snack to wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <a class="product-image" href="#">
+                        <img src="image/greens.avif" alt="Fresh bakery pastries" loading="lazy">
+                    </a>
+                    <div class="product-info">
+                        <p class="product-category">Arctic Garden</p>
+                        <h3><a href="#">Cut and refrigerated green asparagus</a></h3>
+                        <div class="rating">★★★★★ <span>(1 Review)</span></div>
+                        <p class="price">$22.00 <del>$25.00</del></p>
+                        <button class="add-cart" type="button">
+                            <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Product 3 -->
+                <article class="product-card">
+                    <span class="product-badge">New</span>
+                    <button class="wishlist-button" type="button" aria-label="Add snack to wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <a class="product-image" href="#">
+                        <img src="image/zucchini2.jpg" alt="Freshly baked snack" loading="lazy">
+                    </a>
+                    <div class="product-info">
+                        <p class="product-category">Banzima</p>
+                        <h3><a href="#">Seeds basket zucchini green long</a></h3>
+                        <div class="rating">★★★★★ <span>(1 Review)</span></div>
+                        <p class="price">$15.00</p>
+                        <button class="add-cart" type="button">
+                            <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Product 4 -->
+                <article class="product-card">
+                    <button class="wishlist-button" type="button" aria-label="Add snack to wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <a class="product-image" href="#">
+                        <img src="image/tomatoes2.jpg" alt="Fresh baked bread rolls" loading="lazy">
+                    </a>
+                    <div class="product-info">
+                        <p class="product-category">Arctic Garden</p>
+                        <h3><a href="#">Tomato and tomato slices with seeds</a></h3>
+                        <div class="rating">★★★★★ <span>(1 Review)</span></div>
+                        <p class="price">$28.00</p>
+                        <button class="add-cart" type="button">
+                            <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Product 5 -->
+                <article class="product-card">
+                    <span class="product-badge">New</span>
+                    <button class="wishlist-button" type="button" aria-label="Add snack to wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <a class="product-image" href="#">
+                        <img src="image/onions.jpg" alt="Fresh golden baked bread" loading="lazy">
+                    </a>
+                    <div class="product-info">
+                        <p class="product-category">Arctic Garden</p>
+                        <h3><a href="#">Onion hybrid seeds vegetable seeds</a></h3>
+                        <div class="rating">★★★★★ <span>(1 Review)</span></div>
+                        <p class="price">$20.00</p>
+                        <button class="add-cart" type="button">
+                            <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Product 6 -->
+                <article class="product-card">
+                    <button class="wishlist-button" type="button" aria-label="Add snack to wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <a class="product-image" href="#">
+                        <img src="image/potatoes2.jpg" alt="Fresh bakery snack" loading="lazy">
+                    </a>
+                    <div class="product-info">
+                        <p class="product-category">Essential Vegan</p>
+                        <h3><a href="#">Good & gather mini sweet potatoes</a></h3>
+                        <div class="rating">★★★★★ <span>(1 Review)</span></div>
+                        <p class="price">$24.00</p>
+                        <button class="add-cart" type="button">
+                            <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Product 7 -->
+                <article class="product-card">
+                    <span class="product-badge sale">-15%</span>
+                    <button class="wishlist-button" type="button" aria-label="Add snack to wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <a class="product-image" href="#">
+                        <img src="image/banana.avif" alt="Bakery bread snack" loading="lazy">
+                    </a>
+                    <div class="product-info">
+                        <p class="product-category">Freshdirect</p>
+                        <h3><a href="#">Fresh juicy banana Isolated on white</a></h3>
+                        <div class="rating">★★★★★ <span>(1 Review)</span></div>
+                        <p class="price">$17.00 <del>$20.00</del></p>
+                        <button class="add-cart" type="button">
+                            <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Product 8 -->
+                <article class="product-card">
+                    <button class="wishlist-button" type="button" aria-label="Add snack to wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <a class="product-image" href="#">
+                        <img src="image/broccoli.jpg" alt="Assorted baked treats" loading="lazy">
+                    </a>
+                    <div class="product-info">
+                        <p class="product-category">Hurom Slow</p>
+                        <h3><a href="#">Broccoli Gobhi Gardening Plant Seeds</a></h3>
+                        <div class="rating">★★★★★ <span>(1 Review)</span></div>
+                        <p class="price">$30.00</p>
+                        <button class="add-cart" type="button">
+                            <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+                        </button>
+                    </div>
+                </article>
+
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <button type="button" class="page-arrow" aria-label="Previous page">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <a href="#" class="current-page">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <button type="button" class="page-arrow" aria-label="Next page">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container newsletter-content">
+            <div>
+                <h2>Get the Freshvege Newsletter</h2>
+                <p>Subscribe for the latest updates, products and special offers.</p>
+            </div>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address" aria-label="Email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <a href="#" class="logo footer-logo">
+                    <i class="fa-solid fa-leaf"></i>
+                    <span>Fresh<span class="logo-green">vege</span></span>
+                </a>
+                <p>Your everyday destination for fresh food, delicious snacks and quality grocery essentials.</p>
+            </div>
+
+            <div>
+                <h3>Information</h3>
+                <a href="#">About Us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms &amp; Conditions</a>
+            </div>
+
+            <div>
+                <h3>Customer Service</h3>
+                <a href="#">Contact Us</a>
+                <a href="#">Returns</a>
+                <a href="#">Site Map</a>
+                <a href="#">My Account</a>
+            </div>
+
+            <div>
+                <h3>Contact Us</h3>
+                <p><i class="fa-solid fa-location-dot"></i> 1801 Zboncak Island Suite Street</p>
+                <p><i class="fa-solid fa-envelope"></i> support@example.com</p>
+                <p><i class="fa-solid fa-phone"></i> (+01) 0123-456-789</p>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>© 2026 Freshvege. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
